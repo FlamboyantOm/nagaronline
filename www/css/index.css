@@ -184,9 +184,9 @@ a div.home {
     position: relative;
     width: 20px;
     height: 20px;
-    padding-left: 15px;
     bottom: 2px;
     text-align:center;
+    padding-left: 15px;
 }
 
 a div.event {
@@ -195,7 +195,6 @@ a div.event {
     position: relative;
     width: 20px;
     height: 20px;
-    padding-left: 15px;
     bottom: 2px;
     text-align:center;
 }
@@ -206,7 +205,6 @@ a div.contact {
     position: relative;
     width: 20px;
     height: 20px;
-    padding-left: 15px;
     bottom: 2px;
 }
 
@@ -216,7 +214,6 @@ a div.offer {
     position: relative;
     width: 20px;
     height: 20px;
-    padding-left: 15px;
     bottom: 2px;
 }
 
