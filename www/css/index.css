@@ -78,14 +78,14 @@ h1 {
     text-align:center;
 }
 
-.event {
+/*.event {
     border-radius:4px;
     -webkit-border-radius:4px;
     color:#FFFFFF;
     font-size:12px;
     margin:0px 30px;
     padding:2px 0px;
-}
+}*/
 
 .event.listening {
     background-color:#333333;
@@ -136,7 +136,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    background-color: yellow;
+    background-color: black;
     height: 50px;
 }
 footer {
@@ -152,7 +152,7 @@ footer {
 }
 ul {
     list-style-type: none;
-    margin-top: 5%;
+    margin-top: 6%;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -167,7 +167,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
     text-decoration: none;
 }
 
@@ -179,154 +179,127 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 a div.home {
-	background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/home-outline.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
+    width: 50%;
     height: 20px;
     bottom: 2px;
     text-align:center;
-    padding-left: 15px;
+    padding-left: 50%;
 }
 
 a div.event {
-	background:url(../img/event.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/event-outline.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
+    width: 50%;
     height: 20px;
     bottom: 2px;
     text-align:center;
+    padding-left: 50%;
 }
 
 a div.contact {
-	background:url(../img/contact.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/contact-outline.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
+    width: 50%;
     height: 20px;
     bottom: 2px;
+    padding-left: 50%;
 }
 
 a div.offer {
-	background:url(../img/offer.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/offer-outline.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
+    width: 50%;
     height: 20px;
     bottom: 2px;
+    padding-left: 50%;
 }
 
 a div.share {
 	background:url(../img/share.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
+    width: 50%;
     height: 20px;
     padding-left: 15px;
     bottom: 2px;
+    padding-left: 50%;
 }
 
 a div.home:active{
-	background:url(../img/home-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
-    text-align:center;
-    padding-left: 15px;
 }
 
 a div.event:active{
-	background:url(../img/event-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/event.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
-    text-align:center;
 }
 
 a div.contact:active{
-	background:url(../img/contact-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/contact.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
 }
 
 a div.offer:active{
-	background:url(../img/offer-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/offer.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
 }
 
 a div.share:active{
 	background:url(../img/share.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    padding-left: 15px;
-    bottom: 2px;
 }
 
 
 
 
 a div.home:hover{
-	background:url(../img/home-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
-    text-align:center;
-    padding-left: 15px;
 }
 
 a div.event:hover{
-	background:url(../img/event-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/event.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
-    text-align:center;
 }
 
 a div.contact:hover{
-	background:url(../img/contact-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/contact.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
 }
 
 a div.offer:hover{
-	background:url(../img/offer-outline.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/offer.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    bottom: 2px;
 }
 
 a div.share:hover{
 	background:url(../img/share.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 20px;
     position: relative;
-    width: 20px;
-    height: 20px;
-    padding-left: 15px;
-    bottom: 2px;
 }
- a div.menutext{
- top:10px;
- }
+ul#footerMenu {
+	width: 100%;
+}
+ul#footerMenu li{
+	width: 20%;
+}
+
+#footerMenu li a.active{
+	font-weight: bold;
+}

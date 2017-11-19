@@ -23,15 +23,15 @@
     <title>Nagar Online</title>
 </head>
 
-<body>
+<body onload="document.getElementById('home').focus()">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
-<header style="height: 100%; width: 100%; background-color:yellow;">
+<header style="height: 100%; width: 100%;">
   <iframe id="if" style="height: 100%; width: 100%;"></iframe>
 </header>
 <footer class="footer">
     <div class="container">
         <div class="row">
-			<ul>
+			<ul id="footerMenu">
 			  <li><a id="home"><div class="home"></div><div class="menutext">Home</div></a></li>
 			  <li><a id="events"><div class="event"></div><div class="menutext">Events</div></a></li>
 			  <li><a id="services"><div class="offer"></div><div class="menutext">Services</div></a></li>
@@ -63,6 +63,22 @@
 		});
 		$("#contact").click(function() {
 			$("#if").attr('src', 'http://www.nagaronline.com/contact.php');
+		});
+		
+		$(document).ready(function () {
+			$('#footerMenu li a').click(function (e) {
+				$('#footerMenu li a').removeClass('active');
+				var $parent = $(this);
+				if (!$parent.hasClass('active')) {
+					$parent.addClass('active');
+				}
+				e.preventDefault();
+			});
+			jQuery(function(){
+			   jQuery('#home').click();
+			   jQuery('#home').addClass('active');
+			   jQuery('#home').trigger('hover');
+			});
 		});
     </script>
 </body>
