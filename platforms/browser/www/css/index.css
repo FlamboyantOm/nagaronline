@@ -276,6 +276,57 @@ a div.share:active{
     bottom: 2px;
 }
 
+
+
+
+a div.home:hover{
+	background:url(../img/home-outline.png) no-repeat center top; /* 170px x 200px */
+	background-size: 30px 20px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 2px;
+    text-align:center;
+    padding-left: 15px;
+}
+
+a div.event:hover{
+	background:url(../img/event-outline.png) no-repeat center top; /* 170px x 200px */
+	background-size: 30px 20px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 2px;
+    text-align:center;
+}
+
+a div.contact:hover{
+	background:url(../img/contact-outline.png) no-repeat center top; /* 170px x 200px */
+	background-size: 30px 20px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 2px;
+}
+
+a div.offer:hover{
+	background:url(../img/offer-outline.png) no-repeat center top; /* 170px x 200px */
+	background-size: 30px 20px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 2px;
+}
+
+a div.share:hover{
+	background:url(../img/share.png) no-repeat center top; /* 170px x 200px */
+	background-size: 30px 20px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+    bottom: 2px;
+}
  a div.menutext{
  top:10px;
  }
