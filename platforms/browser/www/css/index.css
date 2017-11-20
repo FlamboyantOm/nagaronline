@@ -299,7 +299,6 @@ ul#footerMenu {
 ul#footerMenu li{
 	width: 20%;
 }
-
 #footerMenu li a.active{
 	font-weight: bold;
 }
