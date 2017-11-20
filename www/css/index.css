@@ -152,11 +152,11 @@ footer {
 }
 ul {
     list-style-type: none;
-    margin-top: 6%;
+    /* margin-top: 0%; */
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    height: 50px;
+    height: 60px;
 }
 
 li {
@@ -167,97 +167,102 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 10px 10px 0px;
+    padding: 10px 0px 0px 0px;
     text-decoration: none;
+    height:100%;
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #050000;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #FFFF00;
+    color:#050000;
 }
+
 a div.home {
 	background:url(../img/home-outline.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
     width: 50%;
-    height: 20px;
     bottom: 2px;
     text-align:center;
     padding-left: 50%;
+    height: 45%;
 }
 
 a div.event {
 	background:url(../img/event-outline.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
     width: 50%;
-    height: 20px;
     bottom: 2px;
     text-align:center;
     padding-left: 50%;
+    height: 45%;
 }
 
 a div.contact {
 	background:url(../img/contact-outline.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
     width: 50%;
-    height: 20px;
     bottom: 2px;
+    text-align:center;
     padding-left: 50%;
+    height: 45%;
 }
 
 a div.offer {
 	background:url(../img/offer-outline.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
     width: 50%;
-    height: 20px;
     bottom: 2px;
+    text-align:center;
     padding-left: 50%;
+    height: 45%;
 }
 
-a div.share {
-	background:url(../img/share.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+a div.service {
+	background:url(../img/service-outline.png) no-repeat center top; /* 170px x 200px */
+	background-size: 35px 35px;
     position: relative;
     width: 50%;
-    height: 20px;
-    padding-left: 15px;
     bottom: 2px;
+    text-align:center;
     padding-left: 50%;
+    height: 45%;
 }
 
 a div.home:active{
 	background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
 a div.event:active{
 	background:url(../img/event.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
 a div.contact:active{
 	background:url(../img/contact.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
 a div.offer:active{
 	background:url(../img/offer.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
-a div.share:active{
-	background:url(../img/share.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+a div.service:active{
+	background:url(../img/service.png) no-repeat center top; /* 170px x 200px */
+	background-size: 35px 35px;
     position: relative;
 }
 
@@ -266,38 +271,40 @@ a div.share:active{
 
 a div.home:hover{
 	background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
 a div.event:hover{
 	background:url(../img/event.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
 a div.contact:hover{
 	background:url(../img/contact.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
 a div.offer:hover{
 	background:url(../img/offer.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+	background-size: 30px 25px;
     position: relative;
 }
 
-a div.share:hover{
-	background:url(../img/share.png) no-repeat center top; /* 170px x 200px */
-	background-size: 30px 20px;
+a div.service:hover{
+	background:url(../img/service.png) no-repeat center top; /* 170px x 200px */
+	background-size: 35px 35px;
     position: relative;
 }
+
 ul#footerMenu {
 	width: 100%;
 }
 ul#footerMenu li{
 	width: 20%;
+	height: 100%;
 }
 #footerMenu li a.active{
 	font-weight: bold;
