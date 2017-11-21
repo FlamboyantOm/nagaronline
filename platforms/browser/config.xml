@@ -8,10 +8,10 @@
     </feature>
     <name>NagarOnline</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        NagarOnline sample application that responds to the deviceready event.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="omkar.throat.30@gmail.com">
+        Omkar Thorat
     </author>
     <content src="index.html" />
     <access origin="*" />
