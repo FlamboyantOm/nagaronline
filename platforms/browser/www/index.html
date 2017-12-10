@@ -60,7 +60,9 @@
 		$("#contact").click(function() {
 			$("#if").attr('src', 'http://www.nagaronline.com/contact.php');
 		});
-		
+		$( window ).on( "load", function() {
+			jQuery('#home div.home').css('background-image', 'url("/img/home.png")');
+		});
 		$(document).ready(function () {
 			$('#footerMenu li a').click(function (e) {
 				$('#footerMenu li a').removeClass('active');
@@ -77,20 +79,12 @@
 				e.preventDefault();
 			});
 			
-			if($('#footerMenu li a#home').hasClass('active')){
-					jQuery('.home').css('background-image', 'url("/img/home.png")');
-				}
-			
 			jQuery(function(){
 			   jQuery('#home').click();
 			   jQuery('#home').addClass('active');
 			   jQuery('#home').trigger('hover');
 			});
 		});
-		
-		if($('#footerMenu li a#home').hasClass('active')){
-			jQuery('.home').css('background-image', 'url("/img/home.png")');
-		}
     </script>
 </body>
 
