@@ -79,8 +79,6 @@
 			
 			if($('#footerMenu li a#home').hasClass('active')){
 					jQuery('.home').css('background-image', 'url("/img/home.png")');
-				}else{
-					jQuery('.home').css('background-image', 'url("/img/home-outline.png")');
 				}
 			
 			jQuery(function(){
@@ -89,6 +87,10 @@
 			   jQuery('#home').trigger('hover');
 			});
 		});
+		
+		if($('#footerMenu li a#home').hasClass('active')){
+			jQuery('.home').css('background-image', 'url("/img/home.png")');
+		}
     </script>
 </body>
 
