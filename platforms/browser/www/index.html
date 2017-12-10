@@ -22,7 +22,6 @@
 	
     <title>Nagar Online</title>
 </head>
-
 <body onload="document.getElementById('home').focus()">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
 <header style="height: 100%; width: 100%;">
@@ -49,11 +48,9 @@
 		 $("#home").click(function() {
 			$("#if").attr('src', 'http://www.nagaronline.com/index.php');
 		});
-
 		$("#events").click(function() {
 			$("#if").attr('src', 'http://www.nagaronline.com/news.php');
 		});
-		
 		$("#services").click(function() {
 			$("#if").attr('src', 'http://www.nagaronline.com/services.php');
 		});
@@ -79,6 +76,12 @@
 				}
 				e.preventDefault();
 			});
+			
+			if($('#footerMenu li a#home').hasClass('active')){
+					jQuery('.home').css('background-image', 'url("/img/home.png")');
+				}else{
+					jQuery('.home').css('background-image', 'url("/img/home-outline.png")');
+				}
 			
 			jQuery(function(){
 			   jQuery('#home').click();
