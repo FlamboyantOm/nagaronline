@@ -61,7 +61,12 @@
 			$("#if").attr('src', 'http://www.nagaronline.com/contact.php');
 		});
 		$( window ).on( "load", function() {
-						jQuery('#home div.home').css('background-image', 'url("/img/home.png")');
+										
+				if($('#footerMenu li a#home').hasClass('active')){
+					jQuery('.home').css('background-image', 'url("/img/home.png")');
+				}else{
+					jQuery('.home').css('background-image', 'url("/img/home-outline.png")');
+				}
 
 		});
 		$(document).ready(function () {
@@ -72,14 +77,13 @@
 					$parent.addClass('active');	
 					//jQuery('.home').css('background-image', 'url("/img/home.png")');
 				}
+							jQuery('#home div.home').css('background-image', 'url("/img/home.png")');
 
 				if($('#footerMenu li a#home').hasClass('active')){
-					jQuery('.home').css('background-image', 'url("/img/home.png")');
+					//jQuery('.home').css('background-image', 'url("/img/home.png")');
 				}else{
 					jQuery('.home').css('background-image', 'url("/img/home-outline.png")');
 				}
-											jQuery('#home div.home').css('background-image', 'url("/img/home.png")');
-
 				e.preventDefault();
 			});
 			
