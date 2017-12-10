@@ -236,7 +236,15 @@ a div.service {
     height: 45%;
 }
 
+a div.homeactive{
+	/*background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
+	background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
+	background-size: 30px 25px;
+    position: relative;
+}
+
 a div.home:active{
+	/*background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
 	background:url(../img/home.png) no-repeat center top; /* 170px x 200px */
 	background-size: 30px 25px;
     position: relative;

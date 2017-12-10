@@ -31,7 +31,7 @@
     <div class="container">
         <div class="row">
 			<ul id="footerMenu">
-			  <li><a id="home"><div class="home"></div><div class="menutext">Home</div></a></li>
+			  <li><a id="home"><div class="home active"></div><div class="menutext">Home</div></a></li>
 			  <li><a id="events"><div class="event"></div><span class="menutext">Events</span></a></li>
 			  <li><a id="services"><div class="service"></div><div class="menutext">Services</div></a></li>
 			  <li><a id="offer"><div class="offer"></div><div class="menutext">Offers</div></a></li>
@@ -61,25 +61,27 @@
 			$("#if").attr('src', 'http://www.nagaronline.com/contact.php');
 		});
 		$( window ).on( "load", function() {
-										
-				jQuery('.home').css('background-image', 'url("/img/home.png")');
-			
-
+				//jQuery('.home').css('background-image', 'url("/img/home.png")');
+							
 		});
+
 		$(document).ready(function () {
 			$('#footerMenu li a').click(function (e) {
+				
 				$('#footerMenu li a').removeClass('active');
 				var $parent = $(this);
 				if (!$parent.hasClass('active')) {
 					$parent.addClass('active');	
 					//jQuery('.home').css('background-image', 'url("/img/home.png")');
 				}
-				jQuery('.home').css('background-image', 'url("/img/home.png")');
 
 				if($('#footerMenu li a#home').hasClass('active')){
-					//jQuery('.home').css('background-image', 'url("/img/home.png")');
+					jQuery('.home').addClass('homeactive');
+					//jQuery('.home').css('background-image', 'url("/img/home.png") no-repeat center center fixed');
 				}else{
-					jQuery('.home').css('background-image', 'url("/img/home-outline.png")');
+					jQuery('.home').removeClass('homeactive');
+
+					//jQuery('.home').css('background-image', 'url("/img/home-outline.png")');
 				}
 				e.preventDefault();
 			});
