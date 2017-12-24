@@ -6,6 +6,6 @@
 
 #### PhoneGap CLI
 
-The Nagar Online is the default. App
+The hello-world template is the default when you create a new application using the [phonegap-cli][phonegap-cli-url].
 
     phonegap create my-app
